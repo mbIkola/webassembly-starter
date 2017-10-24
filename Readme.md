@@ -11,5 +11,8 @@ I would recommend downloading and installing
 
 ## License 
 ![WTFPL Logo](/doc/img/wtfpl-badge-1.png) Project is made available under the terms of the [WTFPL][wtfpl]. 
-see the [LICENSE][license] file that accompanies this distribution for the full text of license. 
 
+See the [LICENSE][license] file that accompanies this distribution for the full text of license.
+
+[license]:  https://github.com/mbIkola/webassembly-starter/blob/master/LICENSE
+[wtfpl]: http://www.wtfpl.net/
