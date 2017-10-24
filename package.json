@@ -1,0 +1,29 @@
+{
+  "name": "webassembly-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate to compile and run `.wasm` and `.asmjs.map` files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mbIkola/webassembly-starter.git"
+  },
+  "keywords": [
+    "webassembly",
+    "boilerplate",
+    "дерзко",
+    "неведомая",
+    "ебанина",
+    "слабоумие",
+    "и",
+    "отвага"
+  ],
+  "author": "Nickolay \"mbikola\" Kharchevin <kharchevyn@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mbIkola/webassembly-starter/issues"
+  },
+  "homepage": "https://github.com/mbIkola/webassembly-starter#readme"
+}
