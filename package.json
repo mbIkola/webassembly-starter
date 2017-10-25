@@ -4,7 +4,8 @@
   "description": "Simple boilerplate to compile and run `.wasm` and `.asmjs.map` files",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "compile:js": "$(npm bin)/browserify ./run.js -o dist/run.fibo.js"
   },
   "repository": {
     "type": "git",
@@ -14,16 +15,18 @@
     "webassembly",
     "boilerplate",
     "дерзко",
-    "неведомая",
-    "ебанина",
-    "слабоумие",
-    "и",
-    "отвага"
+    "неведомая ебанина",
+    "слабоумие и отвага"
   ],
   "author": "Nickolay \"mbikola\" Kharchevin <kharchevyn@gmail.com>",
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/mbIkola/webassembly-starter/issues"
   },
-  "homepage": "https://github.com/mbIkola/webassembly-starter#readme"
+  "homepage": "https://github.com/mbIkola/webassembly-starter#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "browserify": "^14.5.0",
+    "webassembly": "^0.11.0"
+  }
 }
